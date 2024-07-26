@@ -1,0 +1,51 @@
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-file-upload {
+  text-align: center;
+  position: relative;
+  border: 2px #048C8C dashed  !important;
+
+}
+
+#input-file-upload {
+  display: none;
+}
+
+#label-file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8fafc;
+}
+
+#label-file-upload.drag-active {
+  background-color: #ffffff;
+}
+
+.upload-button {
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  background-color: transparent;
+}
+
+.upload-button:hover {
+  text-decoration-line: underline;
+}
+
+#drag-file-element {
+  position: absolute;
+  border-radius: 1rem;
+}

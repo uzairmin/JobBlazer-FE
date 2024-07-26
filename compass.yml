@@ -1,0 +1,23 @@
+name: Octagon-FE
+id: 'ari:cloud:compass:b902fc91-f602-4d38-9ff0-26239b7902a0:component/42b44239-8145-48db-8bef-ec0880b96787/b4c343cc-e008-4417-963d-a071155335cb'
+description: AI-ML Based Sales Engine
+ownerId: 'ari:cloud:teams::team/d3c552d4-3bed-4baa-b4a4-a8a4567074c5'
+fields:
+  tier: 4
+links:
+  - name: Octagon-FE
+    type: REPOSITORY
+    url: 'https://github.com/Devsinc-Org/Octagon-FE'
+  - name: '#Octagon'
+    type: CHAT_CHANNEL
+    url: 'https://octagon-devsinc.slack.com/archives/C04K6ARDG8P'
+  - name: Octagon
+    type: PROJECT
+    url: 'https://devsinc.atlassian.net/browse/OC'
+  - name: Octagon
+    type: DOCUMENT
+    url: 'https://devsinc.atlassian.net/wiki/spaces/OC/overview'
+relationships: {}
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
